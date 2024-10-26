@@ -1,13 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+
 body, html {
     height: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .center-box {
-    width: 200px;
-    height: 600px;
-    background-color: #f0f0f0;
+    width: 1000px;
+    height: 1200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+a {
+    margin: auto;
+    font-size: 30px;
+    font-family: "ga maamli";
 }
